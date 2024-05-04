@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Seperate Place",
     "records": [
+   {
+            "user": "MonsterIsABlock",
+            "link": "https://www.youtube.com/watch?v=FNCLEZdEEms",
+            "percent": 100,
+            "hz": 90
+        }
     ]
 }
