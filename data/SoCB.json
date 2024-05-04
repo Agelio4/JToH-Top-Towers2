@@ -1,1 +1,12 @@
-
+{
+    "id": 8562822414,
+    "name": "Steeple of Cheese Burger",
+    "author": "JToH",
+    "creators": ["Nosav"],
+    "verifier": "MonsterIsABlock",
+    "verification": "https://www.youtube.com/watch?v=tOqPJ6Z-McY",
+    "percentToQualify": "100",
+    "password": "Pit of Misery",
+    "records": [
+    ]
+}
