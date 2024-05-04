@@ -1,0 +1,18 @@
+{
+    "id": 3979721,
+    "name": "Cataclysm",
+    "author": "Ggb0y",
+    "creators": ["Ggb0y"],
+    "verifier": "Riot",
+    "completion": "https://www.youtube.com/watch?v=FWSPVmFkOd8",
+    "percentToQualify": 52,
+    "password": "666777",
+    "records": [
+        {
+            "user": "random",
+            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}
