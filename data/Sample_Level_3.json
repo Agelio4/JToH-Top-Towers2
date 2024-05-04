@@ -1,24 +1,12 @@
 {
-    "id": 57436521,
-    "name": "Sample Level 3",
-    "author": "Different Publisher",
-    "creators": ["Solo_Creator"],
-    "verifier": "Solo_Creator",
-    "verification": "https://www.youtube.com/watch?v=ISTl28wKSXc",
+    "id": 8251160249,
+    "name": "Tower of Flagrant Aggravation",
+    "author": "sokol50",
+    "creators": ["sokol50"],
+    "verifier": "exexic",
+    "verification": "https://www.youtube.com/watch?v=f68RSZgklJI",
     "percentToQualify": "100",
-    "password": "46290",
+    "password": "Seperate Place",
     "records": [
-        {
-            "user": "Sample_Victor_1",
-            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
-            "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "Sample_Victor_2",
-            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
-            "percent": 100,
-            "hz": 120
-        }
     ]
 }
