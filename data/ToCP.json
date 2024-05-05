@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Ring 9",
     "records": [
+      {
+            "user": "cvrro",
+            "link": "https://www.youtube.com/watch?v=WysmTwoWAHY",
+            "percent": 100,
+            "hz": 75
+        }
     ]
 }
