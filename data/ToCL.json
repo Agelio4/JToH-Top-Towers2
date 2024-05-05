@@ -1,0 +1,18 @@
+{
+    "id": 2830417603,
+    "name": "Tower of Cataclysmic Layers",
+    "author": "AToS",
+    "creators": ["indqx"],
+    "verifier": "BlakeisEpic44",
+    "verification": "https://www.youtube.com/watch?v=4doPQQ-26DE",
+    "percentToQualify": "100",
+    "password": "Ring 7",
+    "records": [
+   {
+            "user": "Agelio",
+            "link": "https://www.youtube.com/watch?v=arqjTOJyagk",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+}
