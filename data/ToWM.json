@@ -19,6 +19,11 @@
             "link": "https://www.youtube.com/watch?v=Fxxi9EGa7nM",
             "percent": 100,
             "hz": 75
-        }    
+        },
+        {
+             "user": "Mythix",
+            "link": "https://www.youtube.com/watch?v=OIH-hGuK2lU",
+            "percent": 100,
+            "hz": 75  
     ]
 }
