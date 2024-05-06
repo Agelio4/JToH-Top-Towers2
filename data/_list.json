@@ -39,6 +39,7 @@
     "SoC",
     "ToDIE",
     "ToFM",
+    "ToWTD"
     "ToRRA",
     "ToG",
     "ToGF",
@@ -97,6 +98,5 @@
     "ToAG",
     "ToTSM",
     "ToAR",
-    "ToAD",
-    "ToID2"
+    "ToAD"
 ]
