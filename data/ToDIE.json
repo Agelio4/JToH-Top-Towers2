@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Zone 8",
     "records": [
+      {
+            "user": "skitsuna",
+            "link": "https://www.youtube.com/watch?v=y_5R9qrqCGo",
+            "percent": 100,
+            "hz": 90
+        }
     ]
 }
