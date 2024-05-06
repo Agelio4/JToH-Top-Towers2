@@ -25,6 +25,12 @@
             "link": "https://www.youtube.com/watch?v=OIH-hGuK2lU",
             "percent": 100,
             "hz": 75  
-        }    
+        },
+        {
+             "user": "Henyxl",
+            "link": "https://www.youtube.com/watch?v=FO_T3u8aWg8",
+            "percent": 100,
+            "hz": 75  
+        }  
     ]
 }
