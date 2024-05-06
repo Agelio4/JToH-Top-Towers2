@@ -113,9 +113,6 @@ export default {
                     <p>
                         Submission Form Link: https://forms.gle/AwZnmtaUvNWTDrYw8
                      </p>
-                    <p>
-                        Once a tower falls onto the Legacy List, we accept records for it for 24 hours after it falls off, then afterwards we never accept records for said tower.
-                    </p>
                 </div>
             </div>
         </main>
