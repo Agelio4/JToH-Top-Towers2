@@ -111,7 +111,7 @@ export default {
                         Do not use major skips.
                     </p>
                     <p>
-                        Submission Form Link: https://forms.gle/AwZnmtaUvNWTDrYw8
+                        Submission Form Link: [(https://forms.gle/AwZnmtaUvNWTDrYw8)]
                      </p>
                 </div>
             </div>
