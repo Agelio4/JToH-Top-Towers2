@@ -25,6 +25,12 @@
             "link": "https://www.youtube.com/watch?v=BkZ3ibKqNAo",
             "percent": 100,
             "hz": 75
+        },
+          {
+             "user": "Martin",
+            "link": "https://www.youtube.com/watch?v=GUBH46TCN2g&t=0s",
+            "percent": 100,
+            "hz": 90
         }
     ]
 }
