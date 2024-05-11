@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Scope 1",
     "records": [
+          {
+            "user": "james140110",
+            "link": "https://www.youtube.com/watch?v=OoVbXEUjPXI",
+            "percent": 100,
+            "hz": 60
+        }
     ]
 }
