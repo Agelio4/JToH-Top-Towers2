@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Pit of Misery",
     "records": [
+          {
+            "user": "Gehadimad",
+            "link": "https://youtu.be/Q23UAlPHmUM",
+            "percent": 100,
+            "hz": 60
+        }
     ]
 }
