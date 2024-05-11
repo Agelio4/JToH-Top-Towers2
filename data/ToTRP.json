@@ -25,6 +25,12 @@
             "link": "https://youtu.be/A7n3_xI7wrU",
             "percent": 100,
             "hz": 60
+        },
+         {
+            "user": "MyntExists",
+            "link": "https://www.youtube.com/watch?v=Z6QRrRKytZ0",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
