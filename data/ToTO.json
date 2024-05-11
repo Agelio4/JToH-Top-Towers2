@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Seperate Place",
     "records": [
+          {
+            "user": "MyntExists",
+            "link": "https://www.youtube.com/watch?v=2QvJvXtC6ps",
+            "percent": 100,
+            "hz": 75
+        }
     ]
 }
