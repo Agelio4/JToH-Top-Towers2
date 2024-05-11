@@ -43,6 +43,12 @@
             "link": "https://www.youtube.com/watch?v=_5SbdXHhHu4",
             "percent": 100,
             "hz": 90
+        },
+         {
+            "user": "Gehadimad",
+            "link": "https://youtu.be/4d94rFaWDXM",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }
