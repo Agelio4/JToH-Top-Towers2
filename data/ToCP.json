@@ -37,6 +37,12 @@
             "link": "https://youtu.be/riUdasDshaE",
             "percent": 100,
             "hz": 90
+        },
+          {
+             "user": "MyntExists",
+            "link": "https://www.youtube.com/@MyntExists/videos",
+            "percent": 100,
+            "hz": 90
         }
     ]
 }
