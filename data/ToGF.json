@@ -13,6 +13,12 @@
             "link": "https://www.youtube.com/watch?v=HhjaPalUTYc",
             "percent": 100,
             "hz": 60
+        },
+         {
+            "user": "skitsuna",
+            "link": "https://www.youtube.com/watch?v=YijzW6-2l0A",
+            "percent": 100,
+            "hz": 90
         }
     ]
 }
