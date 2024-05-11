@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Ring 8",
     "records": [
+          {
+            "user": "AdamGamerFun303",
+            "link": "https://www.youtube.com/watch?v=tRSd-bBJMMs",
+            "percent": 100,
+            "hz": 75
+        }
     ]
 }
