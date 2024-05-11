@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Pit of Misery",
     "records": [
+          {
+            "user": "ArturKing9999_3",
+            "link": "https://www.youtube.com/watch?v=K-F6S5oYCcQ",
+            "percent": 100,
+            "hz": 60
+        }
     ]
 }
