@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Scope 3",
     "records": [
+          {
+            "user": "Gehadimad",
+            "link": "https://youtu.be/-WgdR7Mcix4",
+            "percent": 100,
+            "hz": 60
+        }
     ]
 }
