@@ -43,20 +43,5 @@
         "role": "owner",
         "name": "Empy",
         "link": "https://www.youtube.com/watch?v=Aq5WXmQQooo&pp=ygUacmljayBhc3RsZXkgZGlmZmVyZW50IGxpbms%3D"          
-    },
-    {
-        "role": "admin",
-        "name": "List Admin",
-        "link": "https://www.youtube.com/watch?v=xvFZjo5PgG0&pp=ygUacmljayBhc3RsZXkgZGlmZmVyZW50IGxpbms%3D"
-    },
-    {
-        "role": "trial",
-        "name": "Trial List Helper",
-        "link": "https://www.youtube.com/watch?v=QB7ACr7pUuE&pp=ygUacmljayBhc3RsZXkgZGlmZmVyZW50IGxpbms%3D"
-    },
-    {
-        "role": "dev",
-        "name": "List Coder",
-        "link": "https://www.youtube.com/watch?v=Aq5WXmQQooo&pp=ygUacmljayBhc3RsZXkgZGlmZmVyZW50IGxpbms%3D"
     }
 ]
