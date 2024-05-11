@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Ring 4",
     "records": [
+          {
+            "user": "Martin",
+            "link": "https://www.youtube.com/watch?v=1CSHRKJN4a0&t=169s",
+            "percent": 100,
+            "hz": 75
+        }
     ]
 }
