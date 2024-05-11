@@ -1,13 +1,42 @@
 [
     {
         "role": "owner",
-        "name": "List Owner",
+        "name": "Agelio",
         "link": "https://www.youtube.com/@Agelio"
     },
     {
-        "role": "admin",
-        "name": "List Admin",
+        "role": "owner",
+        "name": "Block",
         "link": "https://www.youtube.com/@Block3AM"
+    },
+     {
+        "role": "owner",
+        "name": "vul",
+    },
+      {
+        "role": "owner",
+        "name": "ObbyBoi435",
+    },
+      {
+        "role": "owner",
+        "name": "Speechless",
+    },
+      {
+        "role": "owner",
+        "name": "Brain",
+          
+    },
+      {
+        "role": "owner",
+        "name": "tin",
+    },
+      {
+        "role": "owner",
+        "name": "Pensive",
+    },
+      {
+        "role": "owner",
+        "name": "Empy",
     },
     {
         "role": "admin",
