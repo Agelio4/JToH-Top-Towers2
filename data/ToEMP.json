@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Seperate Place",
     "records": [
+          {
+            "user": "symmetric_al",
+            "link": "https://www.youtube.com/watch?v=-VMGAbxBMUg",
+            "percent": 100,
+            "hz": 75
+        }
     ]
 }
