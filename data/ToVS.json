@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Ring 8",
     "records": [
+          {
+            "user": "MyntExists",
+            "link": "https://www.youtube.com/watch?v=yeLon2wpBxM",
+            "percent": 100,
+            "hz": 75
+        }
     ]
 }
