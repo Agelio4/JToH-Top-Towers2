@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Scope 2",
     "records": [
+          {
+            "user": "Mythix",
+            "link": "https://www.youtube.com/watch?v=BtqYzAFQxh8",
+            "percent": 100,
+            "hz": 75
+        }
     ]
 }
