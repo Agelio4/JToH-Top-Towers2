@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Seperate Place",
     "records": [
+           {
+            "user": "[BBC] Sliggaz",
+            "link": "https://www.youtube.com/watch?v=A7QwskQrB6Y",
+            "percent": 100,
+            "hz": 75
+        }
     ]
 }
