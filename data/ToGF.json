@@ -67,6 +67,12 @@
             "link": "https://www.youtube.com/@gurthysack/videos",
             "percent": 100,
             "hz": 75
+        },
+          {
+            "user": "fghjryxyth",
+            "link": "https://www.youtube.com/watch?v=PXP_0_F1jys",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }
