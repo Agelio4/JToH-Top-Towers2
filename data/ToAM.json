@@ -43,6 +43,12 @@
             "link": "https://www.youtube.com/watch?v=e3EC412FKyA",
             "percent": 100,
             "hz": 75
+        },
+          {
+            "user": "tinenderman",
+            "link": "https://www.youtube.com/@tsauce8270/videos",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
