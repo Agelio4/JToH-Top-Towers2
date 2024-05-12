@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Zone 7",
     "records": [
+          {
+            "user": "Pink_Amigo",
+            "link": "https://youtu.be/Bgdyye5FnCc",
+            "percent": 100,
+            "hz": 75
+        }
     ]
 }
