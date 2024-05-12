@@ -85,6 +85,12 @@
             "link": "https://www.youtube.com/@gurthysack/videos",
             "percent": 100,
             "hz": 75
+        },
+         {
+            "user": "dizzish",
+            "link": "https://www.youtube.com/watch?v=lVwa-zcy2-s",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
