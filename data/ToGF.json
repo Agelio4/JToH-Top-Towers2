@@ -31,6 +31,12 @@
             "link": "https://www.youtube.com/watch?v=JfEQR4qdSRw&t=5s",
             "percent": 100,
             "hz": 75
+        },
+          {
+            "user": "usa12345dawa",
+            "link": "https://www.youtube.com/@pintosr/videos",
+            "percent": 100,
+            "hz": 65
         }
     ]
 }
