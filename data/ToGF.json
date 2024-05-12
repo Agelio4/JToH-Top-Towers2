@@ -55,6 +55,12 @@
             "link": "https://www.youtube.com/watch?v=YMDApSZa2ek",
             "percent": 100,
             "hz": 75
+        },
+          {
+            "user": "Exzer",
+            "link": "https://www.youtube.com/live/zmDSiEc8wn0?si=FkYuztDcNTB5hHYq",
+            "percent": 100,
+            "hz": 90
         }
     ]
 }
