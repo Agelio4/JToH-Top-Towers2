@@ -25,6 +25,12 @@
             "link": "https://www.youtube.com/watch?v=DMO56VbZgU8",
             "percent": 100,
             "hz": 90
+        },
+           {
+            "user": "[BBC] Sliggaz",
+            "link": "https://www.youtube.com/watch?v=exkruQMycko",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
