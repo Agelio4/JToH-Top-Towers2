@@ -37,6 +37,12 @@
             "link": "https://www.youtube.com/@pintosr/videos",
             "percent": 100,
             "hz": 65
+        },
+          {
+            "user": "Mythix",
+            "link": "https://www.youtube.com/watch?v=-TRH6AvgtM4",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
