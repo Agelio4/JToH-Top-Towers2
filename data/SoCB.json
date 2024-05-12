@@ -13,6 +13,12 @@
             "link": "https://youtu.be/Q23UAlPHmUM",
             "percent": 100,
             "hz": 60
+        },
+          {
+            "user": "tinenderman",
+            "link": "https://www.youtube.com/watch?v=MH7qGJRW2PE",
+            "percent": 100,
+            "hz": 90
         }
     ]
 }
