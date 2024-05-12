@@ -49,6 +49,12 @@
             "link": "https://www.youtube.com/@tsauce8270/videos",
             "percent": 100,
             "hz": 75
+        },
+           {
+            "user": "[BBC] Sliggaz",
+            "link": "https://www.youtube.com/@gurthysack/videos",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
