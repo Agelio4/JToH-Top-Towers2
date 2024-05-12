@@ -85,6 +85,12 @@
             "link": "https://www.youtube.com/watch?v=W5tPh2Hev2s",
             "percent": 100,
             "hz": 75
+        },
+         {
+            "user": "BayBDawg",
+            "link": "https://youtu.be/UZHdU0Pnsf4?si=JSmEGgQQPYQd0gbG",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }
