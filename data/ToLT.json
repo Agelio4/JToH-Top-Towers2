@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Scope 2",
     "records": [
+          {
+            "user": "Pink_Amigo",
+            "link": "https://youtu.be/jyAhu0X7dp0",
+            "percent": 100,
+            "hz": 75
+        }
     ]
 }
