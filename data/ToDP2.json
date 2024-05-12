@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Seperate Place",
     "records": [
+          {
+            "user": "Pink_Amigo",
+            "link": "https://youtu.be/WdScFFe0S3I",
+            "percent": 100,
+            "hz": 75
+        }
     ]
 }
