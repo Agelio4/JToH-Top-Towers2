@@ -13,6 +13,12 @@
             "link": "https://www.youtube.com/watch?v=d3ftICTBoL0",
             "percent": 100,
             "hz": 60
+        },
+          {
+            "user": "Mythix",
+            "link": "https://www.youtube.com/watch?v=QGgLpg0yYgo",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
