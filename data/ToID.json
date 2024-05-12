@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Seperate Place",
     "records": [
+          {
+            "user": "Mythix",
+            "link": "https://www.youtube.com/watch?v=G2whM2J7F4I&list=PLBCo-u5aqVNqJ1TQWT5QSpZWHSaeSQSup&index=35",
+            "percent": 100,
+            "hz": 75
+        }
     ]
 }
