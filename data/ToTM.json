@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Seperate Place",
     "records": [
+          {
+            "user": "FD0XY",
+            "link": "https://www.youtube.com/watch?v=lsJvV0BMOr0",
+            "percent": 100,
+            "hz": 60
+        }
     ]
 }
