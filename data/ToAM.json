@@ -55,6 +55,12 @@
             "link": "https://www.youtube.com/@gurthysack/videos",
             "percent": 100,
             "hz": 75
+        },
+         {
+            "user": "BayBDawg",
+            "link": "https://www.youtube.com/live/F15jyRIwXRA?si=Y6rpn4uAYyQL47t7",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
