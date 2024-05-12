@@ -19,6 +19,12 @@
             "link": "https://www.youtube.com/watch?v=kFv1JGcvxYU",
             "percent": 100,
             "hz": 75
+        },
+         {
+            "user": "BayBDawg",
+            "link": "https://www.youtube.com/live/uFHyEYIVGAQ?si=tETzyro0ikZJNNyf",
+            "percent": 100,
+            "hz": 90
         }
     ]
 }
