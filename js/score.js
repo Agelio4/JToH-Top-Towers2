@@ -26,9 +26,9 @@ export function score(rank, percent, minPercent) {
     // New formula
    let score;
 if(rank <= 10) {
-    score = (0.000002 * Math.pow(rank, 4)) - (0.00442 * Math.pow(rank, 3) + (0.7655 *  Math.pow(rank, 2) - (35.705703 * rank) + 534.944625;
+    score = (0.000002 * Math.pow(rank, 4)) - (0.00442 * Math.pow(rank, 3) + (0.7655 *  Math.pow(rank, 2) - (35.705703 * rank) + 534.944625 *;
 } else if (rank <= 50) {
-    score = (0.000024 * Math.pow(rank, 4)) - (0.006123 * Math.pow(rank, 3)) + (0.566434 * Math.pow(rank, 2)) - (23.060752 * rank) + 429.851399;
+    score = (0.000024 * Math.pow(rank, 4)) - (0.006123 * Math.pow(rank, 3)) + (0.566434 * Math.pow(rank, 2)) - (23.060752 * rank) + 429.851399 *;
 } else {
     score = (-52.524/50) * (rank - 100) + 25 *;
 }
