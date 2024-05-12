@@ -61,6 +61,12 @@
             "link": "https://www.youtube.com/watch?v=8i03DxhoKKY",
             "percent": 100,
             "hz": 90
+        },
+           {
+            "user": "dizzish",
+            "link": "https://www.youtube.com/watch?v=ScsYm8bqu5M",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
