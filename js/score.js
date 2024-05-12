@@ -24,11 +24,11 @@ export function score(rank, percent, minPercent) {
         ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
     */
     // New formula
- let score;
+let score;
 
 // #1 - 10
 if(rank <= 10) {
-    score = (0.000002 * Math.pow(rank, 4)) - (0.00442 * Math.pow(rank, 3) + (0.7655 *  Math.pow(rank, 2)) - (35.705703 * rank) + 534.944625;
+    score = (0.000002 * Math.pow(rank, 4)) - (0.00442 * Math.pow(rank, 3)) + (0.7655 *  Math.pow(rank, 2)) - (35.705703 * rank) + 534.944625;
 
 // #10 - 50
 } else if (rank <= 50) {
