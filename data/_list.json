@@ -1,5 +1,6 @@
 [
     "CoIV",
+    "ToDF",
     "ToEV",
     "ToLP",
     "ToFA",
@@ -97,6 +98,5 @@
     "ToTMS",
     "ToAG",
     "ToTSM",
-    "ToAR",
-    "ToAD"
+    "ToAR"
 ]
