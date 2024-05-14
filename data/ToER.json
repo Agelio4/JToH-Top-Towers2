@@ -55,6 +55,12 @@
             "link": "https://www.youtube.com/watch?v=ctZnIlxKz7k&t=280s",
             "percent": 100,
             "hz": 75
+        },
+         {
+            "user": "millan_gr",
+            "link": "https://www.youtube.com/watch?v=lyIn8NU0ZGk",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
