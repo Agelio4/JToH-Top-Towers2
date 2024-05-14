@@ -43,6 +43,12 @@
             "link": "https://www.youtube.com/live/f68LggFDMf4?si=tgLfvZ_YjesxcP6b",
             "percent": 100,
             "hz": 90
+        },
+         {
+            "user": "vt_et",
+            "link": "https://youtu.be/0mWBf5-l2Qs",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }
