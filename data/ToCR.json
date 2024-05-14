@@ -79,6 +79,12 @@
             "link": "https://www.youtube.com/watch?v=nHPSsPimktE",
             "percent": 100,
             "hz": 60
+        },
+         {
+            "user": "vt_et",
+            "link": "https://www.youtube.com/watch?v=-wFdigErBzM&t=8541s",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
