@@ -25,6 +25,12 @@
             "link": "https://www.youtube.com/@zora1359/videos",
             "percent": 100,
             "hz": 90
+        },
+        {
+            "user": "wealithy",
+            "link": "https://youtu.be/u-f26DGJ1QU",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }
