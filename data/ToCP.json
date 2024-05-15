@@ -115,6 +115,12 @@
             "link": "https://www.youtube.com/watch?v=DrI96cvll0E",
             "percent": 100,
             "hz": 75
+        },
+        {
+            "user": "sokol50",
+            "link": "https://youtu.be/3tVwfuA_nWg",
+            "percent": 100,
+            "hz": 90
         }
     ]
 }
