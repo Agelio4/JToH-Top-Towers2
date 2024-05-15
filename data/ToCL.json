@@ -1,12 +1,12 @@
 {
-    "id": 2830417603,
+    "id": 7432889783,
     "name": "Tower of Cataclysmic Layers",
-    "author": "AToS",
+    "author": "indqx",
     "creators": ["indqx"],
     "verifier": "BlakeisEpic44",
     "verification": "https://www.youtube.com/watch?v=4doPQQ-26DE",
     "percentToQualify": "100",
-    "password": "Ring 7",
+    "password": "Seperate Place",
     "records": [
    {
             "user": "Agelio",
@@ -61,6 +61,12 @@
             "link": "https://youtu.be/CH5-p-cSXJY?si=_7ht2E8iApgB6Rbd",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "Hyperfantasies",
+            "link": "https://youtu.be/099pj17MzZo",
+            "percent": 100,
+            "hz": 90
         }
     ]
 }
