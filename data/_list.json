@@ -46,6 +46,7 @@
     "ToGF",
     "ToCUP",
     "ToSillyFurry",
+    "ToC4",
     "ToFI",
     "ToLLL",
     "ToATC",
@@ -97,6 +98,5 @@
     "SoML",
     "ToTMS",
     "ToAG",
-    "ToTSM",
-    "ToAR"
+    "ToTSM"
 ]
