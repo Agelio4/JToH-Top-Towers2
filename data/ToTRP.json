@@ -55,6 +55,12 @@
             "link": "https://www.youtube.com/watch?v=oaMovoX2tXw",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "wealithy",
+            "link": "https://youtu.be/Ks5dbSInuxQ",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
