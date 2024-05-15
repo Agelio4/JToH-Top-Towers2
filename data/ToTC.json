@@ -25,6 +25,12 @@
             "link": "https://www.youtube.com/@zora1359/videos",
             "percent": 100,
             "hz": 90
+        },
+          {
+            "user": "Agelio",
+            "link": "https://www.youtube.com/watch?v=syCQNuITDHw",
+            "percent": 93,
+            "hz": 60
         }
     ]
 }
