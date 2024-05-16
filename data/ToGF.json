@@ -127,6 +127,12 @@
             "link": "https://www.youtube.com/@exexic/videos",
             "percent": 100,
             "hz": 90
+        },
+         {
+            "user": "DudeManBroTheObbyist",
+            "link": "https://youtu.be/ZzAOu0rdSR4?si=IohixxXlWb3oUMXb",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
