@@ -73,6 +73,12 @@
             "link": "https://www.youtube.com/watch?v=AZS_Nz1Gsng",
             "percent": 100,
             "hz": 90
+        },
+         {
+            "user": "BlastingDuck",
+            "link": "https://youtu.be/J5QDWxvnDWk?si=Pk0KIQqGmCthF5q3",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }
