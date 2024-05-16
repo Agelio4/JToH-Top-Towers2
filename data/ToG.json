@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Scope 2",
     "records": [
+         {
+            "user": "BlastingDuck",
+            "link": "https://youtu.be/AHuOtWMERBM?si=mcgmDjfqNTDlO_hY",
+            "percent": 100,
+            "hz": 60
+        }
     ]
 }
