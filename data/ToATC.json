@@ -43,6 +43,12 @@
             "link": "https://youtu.be/BY5sYIrumB0?si=7ARkIKhYQrGMkmMs",
             "percent": 100,
             "hz": 75
+        },
+         {
+            "user": "Hyperfantasies",
+            "link": "https://www.youtube.com/@Hyperfantasies/videos",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
