@@ -133,6 +133,12 @@
             "link": "https://www.youtube.com/watch?v=LQh_QFLNOEA",
             "percent": 100,
             "hz": 90
+        },
+         {
+            "user": "Hyperfantasies",
+            "link": "https://www.youtube.com/watch?v=GrrV1_XNwpY",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
