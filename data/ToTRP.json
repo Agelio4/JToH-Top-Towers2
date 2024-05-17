@@ -67,6 +67,12 @@
             "link": "https://www.youtube.com/watch?v=HiqrER5bEsE",
             "percent": 100,
             "hz": 85
+        },
+         {
+            "user": "myfrata",
+            "link": "https://www.youtube.com/watch?v=lF3V5J2bzc8&t=257s",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
