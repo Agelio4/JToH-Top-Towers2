@@ -37,6 +37,12 @@
             "link": "https://www.youtube.com/@exexic/videos",
             "percent": 100,
             "hz": 90
+        },
+         {
+            "user": "Tris",
+            "link": "https://www.youtube.com/watch?v=FXHtuXd7HPk",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
