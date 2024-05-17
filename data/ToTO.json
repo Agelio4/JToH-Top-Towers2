@@ -31,6 +31,12 @@
             "link": "https://www.youtube.com/@Hyperfantasies/videos",
             "percent": 100,
             "hz": 75
+        },
+         {
+            "user": "Tris",
+            "link": "https://www.youtube.com/watch?v=SvPjXYeL0UQ",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
