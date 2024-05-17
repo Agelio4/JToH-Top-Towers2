@@ -85,6 +85,12 @@
             "link": "https://www.youtube.com/@exexic/videos",
             "percent": 100,
             "hz": 90
+        },
+         {
+            "user": "Hyperfantasies",
+            "link": "https://www.youtube.com/watch?v=wFcxgjX1_5E",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
