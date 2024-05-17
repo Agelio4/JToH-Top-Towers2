@@ -25,6 +25,12 @@
             "link": "https://www.youtube.com/watch?v=WRzebeza--I",
             "percent": 100,
             "hz": 90
+        },
+         {
+            "user": "millan_gr",
+            "link": "https://www.youtube.com/watch?v=5tRAi4J3RzE",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
