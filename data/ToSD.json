@@ -19,6 +19,12 @@
             "link": "https://www.youtube.com/@zora1359/videos",
             "percent": 100,
             "hz": 90
+        },
+         {
+            "user": "Tris",
+            "link": "https://www.youtube.com/watch?v=Uvc_PGEIQO0",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
