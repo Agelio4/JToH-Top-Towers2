@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Seperate Place",
     "records": [
+         {
+            "user": "TheRealRobloxian9",
+            "link": "https://www.youtube.com/watch?v=UawVXu_Lt_A",
+            "percent": 100,
+            "hz": 90
+        }
     ]
 }
