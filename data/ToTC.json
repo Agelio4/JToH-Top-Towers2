@@ -43,6 +43,12 @@
             "link": "https://www.youtube.com/watch?v=5tg_gQ3MW0k",
             "percent": 100,
             "hz": 60
+        },
+          {
+            "user": "iIiLaseriIi",
+            "link": "https://www.youtube.com/watch?v=oa6G347SXXY&list=PLFv5LjzV_Bp7sgjPELy4eyTbOcZ2EgGBg&index=20",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
