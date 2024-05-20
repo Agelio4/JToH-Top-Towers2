@@ -169,6 +169,60 @@
             "link": "https://www.youtube.com/watch?v=IrT514C8fp4",
             "percent": 100,
             "hz": 75
+        },
+          {
+            "user": "LuckyMrporsche",
+            "link": "https://www.youtube.com/watch?v=ecLzsfqSAYE",
+            "percent": 100,
+            "hz": 90
+        },
+          {
+            "user": "[BBC] symmetric_al",
+            "link": "https://youtu.be/6mLVn7aKZnQ",
+            "percent": 100,
+            "hz": 75
+        },
+          {
+            "user": "purplestep",
+            "link": "https://youtu.be/nzn9ylU69kk",
+            "percent": 100,
+            "hz": 75
+        },
+          {
+            "user": "RagingBagon",
+            "link": "https://www.youtube.com/watch?v=olBBRoQipyA",
+            "percent": 100,
+            "hz": 75
+        },
+          {
+            "user": "Space",
+            "link": "https://youtu.be/FmBfd6te0hI",
+            "percent": 100,
+            "hz": 75
+        },
+          {
+            "user": "thaboomer",
+            "link": "https://youtu.be/l04V28NSXH8",
+            "percent": 100,
+            "hz": 75
+        },
+          {
+            "user": "Ultra",
+            "link": "https://youtu.be/kPeW1ssd2T0",
+            "percent": 100,
+            "hz": 75
+        },
+          {
+            "user": "zeemightyquinn",
+            "link": "https://youtu.be/6RtG6Mchdzk",
+            "percent": 100,
+            "hz": 75
+        },
+          {
+            "user": "zora135",
+            "link": "https://www.youtube.com/watch?v=AZS_Nz1Gsng",
+            "percent": 100,
+            "hz": 61
         }
     ]
 }
