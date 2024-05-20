@@ -9,6 +9,7 @@
     "ToTRP",
     "ToFP",
     "ToWM",
+    "ToSA",
     "ToTW",
     "ToTA",
     "ToTB",
@@ -97,6 +98,5 @@
     "ToPPP",
     "SoML",
     "ToTMS",
-    "ToAG",
-    "ToTSM"
+    "ToAG"
 ]
