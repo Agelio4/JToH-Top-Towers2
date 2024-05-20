@@ -73,6 +73,12 @@
             "link": "https://www.youtube.com/watch?v=lF3V5J2bzc8&t=257s",
             "percent": 100,
             "hz": 75
+        },
+          {
+            "user": "Aimless",
+            "link": "https://youtu.be/NmZyqPJ_9wM?list=UUo8wl3bJjAZGcP-XbaKJlbA",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
