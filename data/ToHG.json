@@ -25,6 +25,18 @@
             "link": "https://www.youtube.com/@iIiLaseriIi/videos",
             "percent": 100,
             "hz": 75
+        },
+          {
+            "user": "purplestep",
+            "link": "https://youtu.be/uSMy78BzZ9s",
+            "percent": 100,
+            "hz": 75
+        },
+          {
+            "user": "Ultra",
+            "link": "https://youtu.be/zH2n3H3wZMQ",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
