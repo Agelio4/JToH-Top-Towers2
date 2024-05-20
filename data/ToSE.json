@@ -31,6 +31,18 @@
             "link": "https://www.youtube.com/watch?v=exkruQMycko",
             "percent": 100,
             "hz": 75
+        },
+          {
+            "user": "Aimless",
+            "link": "https://youtu.be/PyNB1A17rfg",
+            "percent": 100,
+            "hz": 75
+        },
+          {
+            "user": "[BBC] Senztrix",
+            "link": "https://www.youtube.com/watch?v=zN92MkjNVw4",
+            "percent": 100,
+            "hz": 90
         }
     ]
 }
