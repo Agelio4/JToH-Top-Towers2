@@ -19,6 +19,18 @@
             "link": "https://www.youtube.com/watch?v=VsZznFfbQHA",
             "percent": 100,
             "hz": 75
+        },
+          {
+            "user": "crazybox",
+            "link": "https://youtu.be/F0iK_1jJZgg",
+            "percent": 100,
+            "hz": 75
+        },
+          {
+            "user": "LuckyMrporsche",
+            "link": "https://www.youtube.com/watch?v=SYOElcnnPP8",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
