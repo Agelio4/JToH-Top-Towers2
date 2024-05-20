@@ -43,6 +43,18 @@
             "link": "https://www.youtube.com/watch?v=zN92MkjNVw4",
             "percent": 100,
             "hz": 90
+        },
+          {
+            "user": "Slyxl",
+            "link": "https://youtu.be/lMulcnyxzxQ",
+            "percent": 100,
+            "hz": 75
+        },
+          {
+            "user": "Ultra",
+            "link": "https://youtu.be/tCLYFysIwNQ",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
