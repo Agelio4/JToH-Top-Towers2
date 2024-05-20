@@ -73,6 +73,24 @@
             "link": "https://www.youtube.com/watch?v=CAxgMNJW1Es",
             "percent": 100,
             "hz": 75
+        },
+          {
+            "user": "I_Naltz",
+            "link": "https://www.youtube.com/watch?v=LZJlV3UBqO8",
+            "percent": 100,
+            "hz": 90
+        },
+          {
+            "user": "Melody",
+            "link": "https://www.youtube.com/watch?v=Ed7_vROs3i0",
+            "percent": 100,
+            "hz": 90
+        },
+          {
+            "user": "Ultra",
+            "link": "https://www.youtube.com/watch?v=wJWksPWDKOc&pp=ygUNdGhlIGNhcmV0YWtlcg%3D%3D",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
