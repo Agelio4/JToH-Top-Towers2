@@ -151,6 +151,12 @@
             "link": "https://www.youtube.com/@iIiLaseriIi/videos",
             "percent": 100,
             "hz": 75
+        },
+          {
+            "user": "heazion",
+            "link": "https://youtu.be/3oYKYKy1q64",
+            "percent": 100,
+            "hz": 90
         }
     ]
 }
