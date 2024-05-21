@@ -43,6 +43,24 @@
             "link": "https://www.youtube.com/watch?v=jJhyG7poSoo",
             "percent": 100,
             "hz": 75
+        },
+          {
+            "user": "js_n",
+            "link": "https://youtu.be/PZfhVh2Skjk",
+            "percent": 100,
+            "hz": 75
+        },
+          {
+            "user": "sn",
+            "link": "https://youtu.be/e0SfzrjHfVI",
+            "percent": 100,
+            "hz": 75
+        },
+          {
+            "user": "Ultra",
+            "link": "https://youtu.be/XI9kKiyIMf0",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
