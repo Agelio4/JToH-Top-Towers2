@@ -121,6 +121,30 @@
             "link": "https://www.youtube.com/@a6iq129/videos",
             "percent": 100,
             "hz": 75
+        },
+          {
+            "user": "addisonquinx",
+            "link": "https://www.youtube.com/watch?v=r3gE395oeQA",
+            "percent": 100,
+            "hz": 60
+        },
+          {
+            "user": "Ast_1",
+            "link": "https://youtu.be/-MgLf0ZQa1w",
+            "percent": 100,
+            "hz": 75
+        },
+          {
+            "user": "cclice",
+            "link": "https://www.youtube.com/watch?v=b_2Os0GWDyQ",
+            "percent": 100,
+            "hz": 90
+        },
+          {
+            "user": "myfrata",
+            "link": "https://www.youtube.com/watch?v=ceHqSE9Hcug",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
