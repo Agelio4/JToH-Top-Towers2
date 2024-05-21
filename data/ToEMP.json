@@ -19,6 +19,18 @@
             "link": "https://www.youtube.com/@gurthysack/videos",
             "percent": 100,
             "hz": 75
+        },
+          {
+            "user": "purplestep",
+            "link": "https://youtu.be/2m7abTZd_2Q",
+            "percent": 100,
+            "hz": 75
+        },
+          {
+            "user": "Ultra",
+            "link": "https://youtu.be/Knezq80Nva4",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
