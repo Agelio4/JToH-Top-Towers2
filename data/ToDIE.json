@@ -163,6 +163,18 @@
             "link": "https://www.youtube.com/@dur23",
             "percent": 100,
             "hz": 75
+        },
+          {
+            "user": "zeverion",
+            "link": "https://www.youtube.com/watch?v=lS1OorHWess",
+            "percent": 100,
+            "hz": 75
+        },
+          {
+            "user": "greenbean1421",
+            "link": "https://www.youtube.com/@greenbean1421/videos",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
