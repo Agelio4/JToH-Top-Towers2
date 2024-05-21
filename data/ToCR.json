@@ -127,6 +127,18 @@
             "link": "https://youtu.be/CU7DdKrmOuE",
             "percent": 100,
             "hz": 75
+        },
+          {
+            "user": "cclice",
+            "link": "https://www.youtube.com/watch?v=D-a8HgX4qs4",
+            "percent": 100,
+            "hz": 90
+        },
+          {
+            "user": "ChubbyBubbers",
+            "link": "https://www.youtube.com/watch?v=ub_HE9iD8Lw",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
