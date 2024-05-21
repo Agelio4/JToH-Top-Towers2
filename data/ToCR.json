@@ -241,6 +241,18 @@
             "link": "https://youtu.be/yIvw5lmCR-g",
             "percent": 100,
             "hz": 75
+        },
+          {
+            "user": "Wigglecat",
+            "link": "https://www.youtube.com/watch?v=6Abx5LkS03E",
+            "percent": 100,
+            "hz": 90
+        },
+          {
+            "user": "zora135",
+            "link": "https://www.youtube.com/watch?v=Fm9GnkcQmYM",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
