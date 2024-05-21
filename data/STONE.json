@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Scope 2",
     "records": [
+          {
+            "user": "Ultra",
+            "link": "https://youtu.be/Gl2nRv3SDaE",
+            "percent": 100,
+            "hz": 75
+        }
     ]
 }
