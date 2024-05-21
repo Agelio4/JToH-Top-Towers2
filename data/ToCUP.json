@@ -25,6 +25,12 @@
             "link": "https://www.youtube.com/@Hyperfantasies/videos",
             "percent": 100,
             "hz": 75
+        },
+          {
+            "user": "Exzer",
+            "link": "https://youtu.be/ASj66pN4jZ8",
+            "percent": 100,
+            "hz": 90
         }
     ]
 }
