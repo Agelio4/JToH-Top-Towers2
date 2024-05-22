@@ -25,6 +25,24 @@
             "link": "https://www.youtube.com/watch?v=9vLou8-K8-E",
             "percent": 100,
             "hz": 75
+        },
+           {
+            "user": "purplestep",
+            "link": "https://youtu.be/_CmEaoH6XN4",
+            "percent": 100,
+            "hz": 75
+        },
+           {
+            "user": "Ultra",
+            "link": "https://youtu.be/M96r8CxRxA8",
+            "percent": 100,
+            "hz": 75
+        },
+           {
+            "user": "zeemightyquinn",
+            "link": "https://youtu.be/OZDlhUUiS2s",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
