@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Seperate Place",
     "records": [
+          {
+            "user": "RagingBagon",
+            "link": "https://www.youtube.com/watch?v=CCJ2NU2Nino",
+            "percent": 100,
+            "hz": 60
+        }
     ]
 }
