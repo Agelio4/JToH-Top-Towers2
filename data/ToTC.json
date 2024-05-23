@@ -49,6 +49,12 @@
             "link": "https://www.youtube.com/watch?v=oa6G347SXXY&list=PLFv5LjzV_Bp7sgjPELy4eyTbOcZ2EgGBg&index=20",
             "percent": 100,
             "hz": 75
+        },
+         {
+            "user": "crazybox",
+            "link": "https://www.youtube.com/@crazybox9424/videos",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
