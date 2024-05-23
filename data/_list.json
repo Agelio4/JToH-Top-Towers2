@@ -22,6 +22,7 @@
     "ToER",
     "ToVS",
     "ToTM",
+    "SoPPP",
     "ToTP",
     "ToEO",
     "ToOE",
@@ -97,6 +98,5 @@
     "ToSaFT",
     "ToPPP",
     "SoML",
-    "ToTMS",
-    "ToAG"
+    "ToTMS"
 ]
