@@ -175,6 +175,12 @@
             "link": "https://www.youtube.com/watch?v=YtM1moGtG6M",
             "percent": 100,
             "hz": 75
+        },
+         {
+            "user": "crazybox",
+            "link": "https://www.youtube.com/watch?v=VP7lKF_zSSA",
+            "percent": 100,
+            "hz": 90
         }
     ]
 }
