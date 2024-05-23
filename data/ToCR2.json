@@ -13,6 +13,12 @@
             "link": "https://www.youtube.com/watch?v=5rwdNaYTj1E",
             "percent": 100,
             "hz": 75
+        },
+         {
+            "user": "Pink_Amigo",
+            "link": "https://www.youtube.com/live/jsINtavRpTc",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
