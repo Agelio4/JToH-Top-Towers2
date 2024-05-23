@@ -49,6 +49,12 @@
             "link": "https://www.youtube.com/@iIiLaseriIi/videos",
             "percent": 100,
             "hz": 75
+        },
+         {
+            "user": "Error738",
+            "link": "https://www.youtube.com/watch?v=o8xNgdMQOUU",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }
