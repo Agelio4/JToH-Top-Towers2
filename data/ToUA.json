@@ -97,6 +97,12 @@
             "link": "https://www.youtube.com/watch?v=HTuggyfFvMo",
             "percent": 100,
             "hz": 90
+        },
+          {
+            "user": "Ultra",
+            "link": "https://youtu.be/WauZHGmbsEY",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
