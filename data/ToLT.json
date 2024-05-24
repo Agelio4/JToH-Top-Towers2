@@ -19,6 +19,12 @@
             "link": "https://www.youtube.com/watch?v=LP0hP5bKZp4",
             "percent": 100,
             "hz": 75
+        },
+         {
+            "user": "zeverion",
+            "link": "https://www.youtube.com/watch?v=g8HVu_kG1mI",
+            "percent": 100,
+            "hz": 90
         }
     ]
 }
