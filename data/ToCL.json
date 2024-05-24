@@ -121,6 +121,12 @@
             "link": "https://www.youtube.com/@a6iq129/videos",
             "percent": 100,
             "hz": 75
+        },
+         {
+            "user": "zeverion",
+            "link": "https://www.youtube.com/watch?v=UcWCB_0s4ng",
+            "percent": 100,
+            "hz": 82
         }
     ]
 }
