@@ -25,6 +25,12 @@
             "link": "https://www.youtube.com/watch?v=Uvc_PGEIQO0",
             "percent": 100,
             "hz": 75
+        },
+          {
+            "user": "coolers",
+            "link": "https://youtu.be/ysAZqRYsb5k",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
