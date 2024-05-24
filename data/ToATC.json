@@ -49,6 +49,12 @@
             "link": "https://www.youtube.com/@Hyperfantasies/videos",
             "percent": 100,
             "hz": 75
+        },
+          {
+            "user": "FD0XY",
+            "link": "https://www.youtube.com/@FD0XY",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
