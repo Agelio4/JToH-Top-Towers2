@@ -43,6 +43,12 @@
             "link": "https://www.youtube.com/watch?v=DuYDpndFX6k",
             "percent": 100,
             "hz": 90
+        },
+          {
+            "user": "ChubbyBubbers",
+            "link": "https://www.youtube.com/watch?v=gFXipIdl9Og",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }
