@@ -55,6 +55,12 @@
             "link": "https://www.youtube.com/@crazybox9424/videos",
             "percent": 100,
             "hz": 75
+        },
+          {
+            "user": "Pro414gn",
+            "link": "https://www.youtube.com/watch?v=juqAbmK27dw",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }
