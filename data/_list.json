@@ -41,6 +41,7 @@
     "ToRC",
     "SoC",
     "ToDIE",
+    "ToRE"
     "ToFM",
     "ToWTD",
     "ToRRA",
@@ -97,6 +98,5 @@
     "ToHaHA",
     "ToSaFT",
     "ToPPP",
-    "SoML",
-    "ToTMS"
+    "SoML"
 ]
