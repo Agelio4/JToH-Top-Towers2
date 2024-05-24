@@ -55,6 +55,12 @@
             "link": "https://www.youtube.com/@z_exzer/videos",
             "percent": 100,
             "hz": 75
+        },
+          {
+            "user": "san",
+            "link": "https://youtu.be/Few5V_vD4FA",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
