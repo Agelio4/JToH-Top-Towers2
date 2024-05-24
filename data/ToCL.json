@@ -103,6 +103,12 @@
             "link": "https://www.youtube.com/@FD0XY",
             "percent": 100,
             "hz": 75
+        },
+          {
+            "user": "Exzer",
+            "link": "https://www.youtube.com/@z_exzer/videos",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
