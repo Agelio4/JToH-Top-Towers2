@@ -247,6 +247,12 @@
             "link": "https://www.youtube.com/watch?v=HJRq4l18b7s",
             "percent": 100,
             "hz": 60
+        },
+          {
+            "user": "lanyworld",
+            "link": "https://www.youtube.com/watch?v=LjCnemPeY50",
+            "percent": 100,
+            "hz": 90
         }
     ]
 }
