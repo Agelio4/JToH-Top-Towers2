@@ -31,6 +31,12 @@
             "link": "https://youtu.be/ysAZqRYsb5k",
             "percent": 100,
             "hz": 75
+        },
+          {
+            "user": "Zorloth",
+            "link": "https://www.youtube.com/@zorlothone/videos",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
