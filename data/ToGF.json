@@ -265,6 +265,12 @@
             "link": "https://www.youtube.com/watch?v=9dO5CKUqLbw",
             "percent": 100,
             "hz": 75
+        },
+          {
+            "user": "ChubbyBubbers",
+            "link": "https://www.youtube.com/watch?v=JXSXpDMeIcA",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }
