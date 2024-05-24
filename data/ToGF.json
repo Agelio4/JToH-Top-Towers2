@@ -271,6 +271,12 @@
             "link": "https://www.youtube.com/watch?v=JXSXpDMeIcA",
             "percent": 100,
             "hz": 60
+        },
+          {
+            "user": "Ultra",
+            "link": "https://youtu.be/ozGuOo-N2Ro",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
