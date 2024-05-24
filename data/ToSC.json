@@ -31,6 +31,12 @@
             "link": "https://www.youtube.com/@zorlothone/videos",
             "percent": 100,
             "hz": 75
+        },
+         {
+            "user": "zeverion",
+            "link": "https://www.youtube.com/watch?v=phUh5LXWQYA",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
