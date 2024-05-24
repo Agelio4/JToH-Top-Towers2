@@ -91,6 +91,12 @@
             "link": "https://www.youtube.com/@theclownerer/videos",
             "percent": 100,
             "hz": 75
+        },
+          {
+            "user": "cclice",
+            "link": "https://www.youtube.com/watch?v=HTuggyfFvMo",
+            "percent": 100,
+            "hz": 90
         }
     ]
 }
