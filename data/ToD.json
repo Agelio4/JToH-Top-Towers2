@@ -13,6 +13,12 @@
             "link": "https://www.youtube.com/watch?v=RpXN7-oZrps",
             "percent": 100,
             "hz": 75
+        },
+          {
+            "user": "Zorloth",
+            "link": "https://www.youtube.com/@zorlothone/videos",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
