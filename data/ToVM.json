@@ -43,6 +43,12 @@
             "link": "https://www.youtube.com/@z_exzer/videos",
             "percent": 100,
             "hz": 75
+        },
+         {
+            "user": "zeverion",
+            "link": "https://www.youtube.com/@zeverion/videos",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
