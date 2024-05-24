@@ -31,6 +31,12 @@
             "link": "https://www.youtube.com/@zora1359/videos",
             "percent": 100,
             "hz": 90
+        },
+         {
+            "user": "zeverion",
+            "link": "https://www.youtube.com/watch?v=ejVF719Rp7I",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
