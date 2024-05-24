@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Seperate Place",
     "records": [
+          {
+            "user": "Ultra",
+            "link": "https://youtu.be/cNnJ6Cljg7A",
+            "percent": 100,
+            "hz": 75
+        }
     ]
 }
