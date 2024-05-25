@@ -133,6 +133,12 @@
             "link": "https://www.youtube.com/@lolmelody/videos",
             "percent": 100,
             "hz": 75
+        },
+         {
+            "user": "js_n",
+            "link": "https://youtu.be/7lhuGICvFkA",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
