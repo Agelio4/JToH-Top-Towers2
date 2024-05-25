@@ -25,6 +25,12 @@
             "link": "https://www.youtube.com/watch?v=IlrbK5aRZTs",
             "percent": 100,
             "hz": 90
+        },
+         {
+            "user": "betterert",
+            "link": "https://www.youtube.com/watch?v=sEOsXhHCWPI",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
