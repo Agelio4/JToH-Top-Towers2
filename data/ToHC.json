@@ -13,6 +13,12 @@
             "link": "https://www.youtube.com/@iIiLaseriIi/videos",
             "percent": 100,
             "hz": 75
+        },
+         {
+            "user": "eschicool",
+            "link": "https://www.youtube.com/watch?v=vMIOGwMYdTs",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }
