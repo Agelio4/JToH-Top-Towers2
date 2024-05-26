@@ -127,6 +127,12 @@
             "link": "https://www.youtube.com/@dur23",
             "percent": 100,
             "hz": 75
+        },
+         {
+            "user": "FragileSilence",
+            "link": "https://www.youtube.com/@fragilesilence/videos",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
