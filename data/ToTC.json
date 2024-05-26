@@ -127,6 +127,12 @@
             "link": "https://www.youtube.com/@SpeechlessJToH/videos",
             "percent": 100,
             "hz": 75
+        },
+         {
+            "user": "cyn",
+            "link": "https://www.youtube.com/watch?v=U475mWgMjLA",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
