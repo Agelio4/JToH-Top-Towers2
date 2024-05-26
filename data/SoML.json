@@ -19,6 +19,12 @@
             "link": "https://www.youtube.com/@zora1359/videos",
             "percent": 100,
             "hz": 90
+        },
+         {
+            "user": "[BBC] Sliggaz",
+            "link": "https://www.youtube.com/watch?v=lin06DDac0k",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
