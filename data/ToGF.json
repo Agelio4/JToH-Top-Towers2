@@ -319,6 +319,12 @@
             "link": "https://www.youtube.com/watch?v=Rb-K_w8HEsA",
             "percent": 100,
             "hz": 90
+        },
+         {
+            "user": "yemir",
+            "link": "https://youtu.be/fCuvR9LEczE",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
