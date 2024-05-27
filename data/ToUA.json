@@ -133,6 +133,12 @@
             "link": "https://www.youtube.com/@fragilesilence/videos",
             "percent": 100,
             "hz": 75
+        },
+         {
+            "user": "BayBDawg",
+            "link": "https://youtu.be/CIWcKY1yVRg?si=22FEsifY2Wb22xju",
+            "percent": 100,
+            "hz": 90
         }
     ]
 }
