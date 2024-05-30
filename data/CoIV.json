@@ -31,6 +31,12 @@
             "link": "https://www.youtube.com/watch?v=ZIv56RqiVIo",
             "percent": 100,
             "hz": 75
+        },
+          {
+            "user": "cvrro",
+            "link": "https://www.youtube.com/live/d8fu3TAkTmY",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
