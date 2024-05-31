@@ -18,6 +18,7 @@
     "ToIV",
     "ToFnM",
     "ToVH",
+    "ToCK",
     "DT",
     "ToEC",
     "ToER",
@@ -97,6 +98,5 @@
     "ToSC",
     "ToSD",
     "ToHaHA",
-    "ToSaFT",
-    "ToPPP"
+    "ToSaFT"
 ]
