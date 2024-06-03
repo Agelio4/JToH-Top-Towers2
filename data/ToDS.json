@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Seperate Place",
     "records": [
+        {
+            "user": "cuddlyno321",
+            "link": "https://youtu.be/NIEZTqNL-mo",
+            "percent": 100,
+            "hz": 90
+        }
     ]
 }
