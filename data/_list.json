@@ -90,6 +90,7 @@
     "ToBM",
     "ToCR2",
     "ToUA",
+    "ToCCC",
     "ToEP",
     "ToLT",
     "ToTC",
@@ -97,6 +98,5 @@
     "SoWO",
     "ToPP",
     "ToSC",
-    "ToSD",
-    "ToHaHA"
+    "ToSD"
 ]
