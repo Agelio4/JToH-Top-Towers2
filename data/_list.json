@@ -86,6 +86,7 @@
     "ToWWW",
     "ToMA",
     "ToRRR",
+    "ToRI2"
     "ToDP2",
     "ToBM",
     "ToCR2",
@@ -97,6 +98,5 @@
     "ToD",
     "SoWO",
     "ToPP",
-    "ToSC",
-    "ToSD"
+    "ToSC"
 ]
