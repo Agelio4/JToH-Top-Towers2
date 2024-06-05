@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Seperate Place",
     "records": [
+         {
+            "user": "[TC] Mythix",
+            "link": "https://www.youtube.com/live/4yNzl8tRZlg?si=euMY9AJmUe7xw9ib",
+            "percent": 100,
+            "hz": 75
+        }
         ]
 }
