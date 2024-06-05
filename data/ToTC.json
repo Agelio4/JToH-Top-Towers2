@@ -133,6 +133,12 @@
             "link": "https://www.youtube.com/watch?v=U475mWgMjLA",
             "percent": 100,
             "hz": 75
+        },
+          {
+            "user": "ColtenP45",
+            "link": "https://www.youtube.com/watch?v=z1mLv1Bo4Gg&ab_channel=Colten045",
+            "percent": 100,
+            "hz": 90
         }
     ]
 }
