@@ -271,6 +271,12 @@
             "link": "https://www.youtube.com/watch?v=PRNPIcplZ9Y&t=817s&ab_channel=Colten045",
             "percent": 100,
             "hz": 90
+        },
+          {
+            "user": "[BBC] symmetric_al",
+            "link": "https://www.youtube.com/watch?v=p4R9ZortAP8",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
