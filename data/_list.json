@@ -57,6 +57,7 @@
     "ToLLL",
     "ToATC",
     "SoPA",
+    "ToIG",
     "ToTSC",
     "ToDS",
     "ToYH",
@@ -97,6 +98,5 @@
     "ToTC",
     "ToD",
     "SoWO",
-    "ToPP",
-    "ToSC"
+    "ToPP"
 ]
