@@ -253,6 +253,12 @@
             "link": "https://www.youtube.com/watch?v=HsJgjq7dD2o",
             "percent": 100,
             "hz": 90
+        },
+          {
+            "user": "Dafterbear",
+            "link": "https://youtu.be/uwrAaFOqAUM",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }
