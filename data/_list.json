@@ -47,6 +47,7 @@
     "ToDL",
     "ToFM",
     "ToWTD",
+    "ToAA",
     "ToRRA",
     "ToG",
     "ToGF",
@@ -97,6 +98,5 @@
     "ToEP",
     "ToLT",
     "ToTC",
-    "ToD",
-    "SoWO"
+    "ToD"
 ]
