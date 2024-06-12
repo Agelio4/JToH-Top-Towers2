@@ -39,6 +39,7 @@
     "ToNI",
     "ToEMP",
     "ToU",
+    "ToUC",
     "ToTO",
     "ToRC",
     "SoC",
@@ -97,6 +98,5 @@
     "ToCCC",
     "ToEP",
     "ToLT",
-    "ToTC",
-    "ToD"
+    "ToTC"
 ]
