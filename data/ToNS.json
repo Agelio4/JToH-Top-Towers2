@@ -73,6 +73,12 @@
             "link": "https://www.youtube.com/@dur23",
             "percent": 100,
             "hz": 75
+        },
+          {
+            "user": "Dafterbear",
+            "link": "https://youtu.be/6DT2BumLbs4",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }
