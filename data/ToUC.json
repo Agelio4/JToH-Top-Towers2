@@ -8,5 +8,11 @@
     "percentToQualify": 100,
     "password": "Seperate Place",
     "records": [
+           {
+            "user": "joelkoot",
+            "link": "https://youtu.be/SjfDcK_4nVY",
+            "percent": 100,
+            "hz": 90
+        }
          ]
 }
