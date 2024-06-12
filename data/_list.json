@@ -39,6 +39,7 @@
     "ToNI",
     "ToEMP",
     "ToPureAbility",
+    "CoCD",
     "ToU",
     "ToUC",
     "ToTO",
@@ -97,6 +98,5 @@
     "ToCR2",
     "ToUA",
     "ToCCC",
-    "ToEP",
-    "ToLT"
+    "ToEP"
 ]
