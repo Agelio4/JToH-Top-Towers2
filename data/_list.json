@@ -38,6 +38,7 @@
     "ToYIPEE",
     "ToNI",
     "ToEMP",
+    "ToPureAbility",
     "ToU",
     "ToUC",
     "ToTO",
@@ -97,6 +98,5 @@
     "ToUA",
     "ToCCC",
     "ToEP",
-    "ToLT",
-    "ToTC"
+    "ToLT"
 ]
