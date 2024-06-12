@@ -139,6 +139,12 @@
             "link": "https://www.youtube.com/watch?v=z1mLv1Bo4Gg&ab_channel=Colten045",
             "percent": 100,
             "hz": 90
+        },
+            {
+            "user": "Dafterbear",
+            "link": "https://youtu.be/G_ewnfJ6jLQ",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }
