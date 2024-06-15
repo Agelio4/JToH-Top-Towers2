@@ -66,6 +66,7 @@
     "ToTSC",
     "ToDS",
     "ToYH",
+    "ToCI",
     "ToMMM",
     "ToIR",
     "ToPA2",
@@ -97,6 +98,5 @@
     "ToBM",
     "ToCR2",
     "ToUA",
-    "ToCCC",
-    "ToEP"
+    "ToCCC"
 ]
