@@ -157,6 +157,12 @@
             "link": "https://www.youtube.com/watch?v=3SIiHrdCmV0",
             "percent": 100,
             "hz": 90
+        },
+          {
+            "user": "AlphaOmegaEpilison",
+            "link": "https://www.youtube.com/watch?v=A2pMw6K58d8",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
