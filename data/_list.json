@@ -36,6 +36,7 @@
     "ToTWV",
     "STONE",
     "ToYIPEE",
+    "ToPR",
     "ToNI",
     "ToEMP",
     "ToPureAbility",
@@ -97,6 +98,5 @@
     "ToDP2",
     "ToBM",
     "ToCR2",
-    "ToUA",
-    "ToCCC"
+    "ToUA"
 ]
