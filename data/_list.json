@@ -81,6 +81,7 @@
     "ToI",
     "ToVM",
     "ToCS",
+    "ToFT",
     "ToHI",
     "ToNS",
     "ToNI2",
@@ -97,6 +98,5 @@
     "ToRI2",
     "ToDP2",
     "ToBM",
-    "ToCR2",
-    "ToUA"
+    "ToCR2"
 ]
