@@ -38,6 +38,7 @@
     "ToYIPEE",
     "ToPR",
     "ToNI",
+    "ToLTD",
     "ToEMP",
     "ToPureAbility",
     "CoCD",
@@ -97,6 +98,5 @@
     "ToRRR",
     "ToRI2",
     "ToDP2",
-    "ToBM",
-    "ToCR2"
+    "ToBM"
 ]
