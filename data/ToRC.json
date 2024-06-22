@@ -91,6 +91,12 @@
             "link": "https://www.youtube.com/watch?v=M7LShi7xDBc",
             "percent": 100,
             "hz": 60
+        },
+          {
+            "user": "rx_blu",
+            "link": "https://www.youtube.com/watch?v=RyU-HuK8XrA",
+            "percent": 100,
+            "hz": 90
         }
     ]
 }
