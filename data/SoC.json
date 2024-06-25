@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Seperate Place",
     "records": [
+           {
+            "user": "BayBDawg",
+            "link": "https://youtu.be/R3KBNBHlyXg?si=qhkVX_pHf2rJHPTr",
+            "percent": 100,
+            "hz": 90
+        }
     ]
 }
