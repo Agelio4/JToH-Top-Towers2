@@ -1,0 +1,18 @@
+{
+    "id": 15873244701,
+    "name": "Citadel of The Eternal Calamity",
+    "author": "bLockerman666",
+    "creators": ["ZePlayerSlayer"],
+    "verifier": "Marqulitt",
+    "verification": "https://www.youtube.com/watch?v=cZefNeSBC40",
+    "percentToQualify": 100,
+    "password": "Pit of Misery 2",
+    "records": [
+        {
+            "user": "Marqulitt",
+            "link": "https://www.youtube.com/watch?v=cZefNeSBC40",
+            "percent": 100,
+            "hz": 90
+        }
+    ]
+}

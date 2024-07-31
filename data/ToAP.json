@@ -1,0 +1,18 @@
+{
+    "id": 10444873023,
+    "name": "Tower of Angled Passageways",
+    "author": "FireToast2",
+    "creators": ["FireToast2"],
+    "verifier": "dizzish",
+    "verification": "https://www.youtube.com/watch?v=hoimtp1p820",
+    "percentToQualify": 100,
+    "password": "Separate Place",
+    "records": [
+        {
+            "user": "dizzish",
+            "link": "https://www.youtube.com/watch?v=hoimtp1p820",
+            "percent": 100,
+            "hz": 90
+        }
+    ]
+}

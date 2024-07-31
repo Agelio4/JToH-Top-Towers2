@@ -17,8 +17,10 @@
     text-align: end;
     padding-right: 1rem;
 }
+
 .page-list .list .level {
     width: 100%;
+    transition: 0.5s;
 }
 .page-list .list .level button {
     background-color: var(--color-background);
@@ -30,6 +32,7 @@
     word-break: normal;
     overflow-wrap: anywhere;
     cursor: pointer;
+    transition: 0.25s ease;
 }
 .page-list .list .level.error button {
     color: var(--color-error);
@@ -125,4 +128,8 @@
 }
 .page-list .meta .editors li a:hover {
     text-decoration: underline;
+}
+
+.page-list .list .gold p, .page-list .list .gold span {
+    color: rgb(231, 209, 86);
 }
