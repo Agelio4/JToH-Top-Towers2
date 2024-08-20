@@ -1,71 +1,207 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=1024" />
+        <meta charset="utf-8">
         <title>Top Towers List</title>
+        <meta description="Official list for the Top Towers Community">
 
-        <!-- Replace your server icon by uploading an image file named "list_icon.png"-->
-        <link rel="icon" href="/list_icon.png" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500;700&display=swap"
-            rel="stylesheet"
-        />
-        <link rel="stylesheet" type="text/css" href="/css/reset.css" />
-        <link rel="stylesheet" type="text/css" href="/css/typography.css" />
-        <link rel="stylesheet" type="text/css" href="/css/main.css" />
-        <link rel="stylesheet" type="text/css" href="/css/pages/list.css" />
-        <link
-            rel="stylesheet"
-            type="text/css"
-            href="/css/pages/leaderboard.css"
-        />
-        <link rel="stylesheet" type="text/css" href="/css/components/nav.css" />
-        <link rel="stylesheet" type="text/css" href="/css/components/btn.css" />
-        <link
-            rel="stylesheet"
-            type="text/css"
-            href="/css/components/tabs.css"
-        />
-        <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js"></script>
-        <script src="https://unpkg.com/vue-router@4.0.14/dist/vue-router.global.prod.js"></script>
-        <script type="module" src="/js/main.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="./src/css/root.css">
+        <link rel="stylesheet" href="./src/css/header.css">
+        <link rel="stylesheet" href="./src/css/main.css">
+        <link rel="stylesheet" href="./src/css/legacy.css">
+        <link rel="stylesheet" href="./src/css/leaderboard.css">
+        <link rel="stylesheet" href="./src/css/roulette.css">
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js" integrity="sha512-dfX5uYVXzyU8+KHqj8bjo7UkOdg18PaOtpa48djpNbZHwExddghZ+ZmzWT06R5v6NSk3ZUfsH6FNEDepLx9hPQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
     </head>
-    <body id="app">
-        <header :class="{ dark: store.dark }">
-            <div class="logo">
-                <h2></h2>
-                <p>v1.0.0</p>
-            </div>
-            <nav class="nav">
-                <router-link class="nav__tab" to="/">
-                    <span class="type-label-lg">Main List</span>
-                </router-link>
-                <router-link class="nav__tab" to="/leaderboard">
-                    <span class="type-label-lg">Main List Leaderboard</span>
-                </router-link>  
-                <div class="nav__actions">
-                    <button
-                        class="nav__icon"
-                        @click.prevent="store.toggleDark()"
-                    >
-                        <img
-                            :src="store.dark ? '/assets/light.svg' : '/assets/dark.svg'"
-                            alt=""
-                        />
-                    </button>
-                    <!-- Replace the '#' with your discord server's invite-->
-                    <a class="nav__icon" href="https://discord.gg/ttc">
-                        <img src="/assets/discord.svg" alt="Discord Logo" />
-                    </a>
-                    <!-- List record submission form, add a link to replace the '#' when putting a link to your list submission form-->
-               
-                    >
-                </div>
-            </nav>
+    <body>
+        <!-- jquery file loader (ignore) -->
+        <div id="file-loader" style="display: none"></div>
+        
+        <header>
+            <h2 id="header-title"><a href="https://docs.google.com/spreadsheets/d/1bxhj0Xtixkpo_BtzsnIg-qwLTA7qdb7Y6fursQjRZKM/edit?usp=sharing" style="color: white; text-decoration: none;">Top Towers List</a></h2>
+
+            <h3 class="header-link active" id="header-main" onclick="page('main')">Main List</h3>
+            <h3 class="header-link" id="header-legacy" onclick="page('legacy')">Legacy List</h3>
+            <h3 class="header-link" id="header-60" onclick="page('leaderboard')"">Leaderboard</h3>
+            <h3 class="header-link" id="header-roulette" onclick="page('roulette')"">Roulette</h3>
+
+            <img class="header-theme-icon" src="./assets/dark.svg">
         </header>
-        <router-view :class="{ dark: store.dark }"></router-view>
+        <main>
+            <div class="page" id="main">
+                <div id="list">
+
+                </div>
+                <div id="viewer">
+                    <div id="viewer-main">
+                        <h1 id="viewer-towerName">#TOWER_NAME</h1>
+
+                        <div class="viewer-info">
+                            <div class="viewer-infoField">
+                                <h3>Creators</h3>
+                                <p id="viewer-creators">#TOWER_CREATORS</p>
+                            </div>
+                            <div class="viewer-infoField">
+                                <h3>Verifier</h3>
+                                <p id="viewer-verifier">#TOWER_VERIFIER</p>
+                            </div>
+                            <div class="viewer-infoField">
+                                <h3>Location</h3>
+                                <p id="viewer-location">#TOWER_LOCATION</p>
+                            </div>
+                        </div>
+
+                        <iframe id="video" 
+                                src="https://www.youtube.com/embed/Mtcliw0KJ4w?si=cvNaNt9dLQwICcKh" 
+                                title="YouTube video player" 
+                                frameborder="0" 
+                                allow="accelerometer; 
+                                autoplay; 
+                                clipboard-write; 
+                                encrypted-media; 
+                                gyroscope; 
+                                picture-in-picture; 
+                                web-share" 
+                                referrerpolicy="strict-origin-when-cross-origin" 
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div id="viewer-side">
+                        <h3>The Listmods</h3>
+                        <p><img class="crown-icon" src="assets/crown-dark.svg"> Mythix</p>
+                        <p><img class="crown-icon" src="assets/crown-dark.svg"> Syfline</p>
+                        <p><img class="crown-icon" src="assets/crown-dark.svg"> Block</p>
+                        <p><img class="crown-icon" src="assets/crown-dark.svg"> Brain</p>
+                        <p><img class="crown-icon" src="assets/crown-dark.svg"> llyaria</p>
+                        <p><img class="crown-icon" src="assets/crown-dark.svg"> fgh</p>
+                        <p><img class="crown-icon" src="assets/crown-dark.svg"> js_n</p>
+                        <p><img class="crown-icon" src="assets/crown-dark.svg"> Melody</p>
+                        <p><img class="crown-icon" src="assets/crown-dark.svg"> Pixik</p>
+                        <p><img class="crown-icon" src="assets/crown-dark.svg"> Forst</p>
+                        <p><img class="crown-icon" src="assets/crown-dark.svg"> pczm</p>
+                        <p><img class="crown-icon" src="assets/crown-dark.svg"> liu06</p>
+                        <p><img class="crown-icon" src="assets/crown-dark.svg"> tinenderman</p>
+                        <p><img class="crown-icon" src="assets/crown-dark.svg"> Hyper</p>
+
+                        <h2>List Rules</h2>
+                        <ul>
+                            <li>All completions must be done on 90FPS or lower.</li>
+                            <li>No GBJ escapes, LHJ (Lag high jump) skips, or macros are permitted, unless a macro is being used to AFK without being disconnected.</li>
+                            <li>Full recording, cuts are only permitted on specified towers.</li>
+                            <li>Show FPS on Extreme - Catastrophic towers, micro profiler with aggregate infinity is required for Horrific and above.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="page" id="legacy">
+                
+                <div id="list-legacy">
+
+                </div>
+                <div id="viewer-legacy">
+                    <div id="viewer-legacy-main">
+                        <h1 id="viewer-legacy-towerName">#TOWER_NAME</h1>
+
+                        <div class="viewer-legacy-info">
+                            <div class="viewer-legacy-infoField">
+                                <h3>Creators</h3>
+                                <p id="viewer-legacy-creators">#TOWER_CREATORS</p>
+                            </div>
+                            <div class="viewer-legacy-infoField">
+                                <h3>Verifier</h3>
+                                <p id="viewer-legacy-verifier">#TOWER_VERIFIER</p>
+                            </div>
+                            <div class="viewer-legacy-infoField">
+                                <h3>Location</h3>
+                                <p id="viewer-legacy-location">#TOWER_LOCATION</p>
+                            </div>
+                        </div>
+
+                        <iframe id="video-legacy" 
+                                src="https://www.youtube.com/embed/Mtcliw0KJ4w?si=cvNaNt9dLQwICcKh" 
+                                title="YouTube video player" 
+                                frameborder="0" 
+                                allow="accelerometer; 
+                                autoplay; 
+                                clipboard-write; 
+                                encrypted-media; 
+                                gyroscope; 
+                                picture-in-picture; 
+                                web-share" 
+                                referrerpolicy="strict-origin-when-cross-origin" 
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div id="viewer-legacy-side">
+                        <h3>The Listmods</h3>
+                        <p><img class="crown-icon" src="assets/crown-dark.svg"> Mythix</p>
+                        <p><img class="crown-icon" src="assets/crown-dark.svg"> Syfline</p>
+                        <p><img class="crown-icon" src="assets/crown-dark.svg"> Block</p>
+                        <p><img class="crown-icon" src="assets/crown-dark.svg"> Brain</p>
+                        <p><img class="crown-icon" src="assets/crown-dark.svg"> llyaria</p>
+                        <p><img class="crown-icon" src="assets/crown-dark.svg"> fgh</p>
+                        <p><img class="crown-icon" src="assets/crown-dark.svg"> js_n</p>
+                        <p><img class="crown-icon" src="assets/crown-dark.svg"> Melody</p>
+                        <p><img class="crown-icon" src="assets/crown-dark.svg"> Pixik</p>
+                        <p><img class="crown-icon" src="assets/crown-dark.svg"> Forst</p>
+                        <p><img class="crown-icon" src="assets/crown-dark.svg"> pczm</p>
+                        <p><img class="crown-icon" src="assets/crown-dark.svg"> liu06</p>
+                        <p><img class="crown-icon" src="assets/crown-dark.svg"> tinenderman</p>
+                        <p><img class="crown-icon" src="assets/crown-dark.svg"> Hyper</p>
+
+                        <h2>List Rules</h2>
+                        <ul>
+                            <li>All completions must be done on 90FPS or lower.</li>
+                            <li>No GBJ escapes, LHJ (Lag high jump) skips, or macros are permitted, unless a macro is being used to AFK without being disconnected.</li>
+                            <li>Full recording, cuts are only permitted on specified towers.</li>
+                            <li>Show FPS on Extreme - Catastrophic towers, micro profiler with aggregate infinity is required for Horrific and above.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="page" id="leaderboard">
+                <h1 style="margin-left: 1vw;">Leaderboard (COMING SOON)</h1>
+            </div>
+
+            <div class="page" id="roulette">
+                <div id="roulette-header">
+                    <div id="roulette-options">
+                        <div> <!-- container sets width to 0 despite having width causing it to be ignored in center align -->
+                            <span>
+                                <input type="checkbox" id="opt-main">
+                                <label for="opt-main">Main List</label>
+                            </span>
+                            <span>
+                                <input type="checkbox" id="opt-legacy">
+                                <label for="opt-main">Legacy List</label>
+                            </span>
+                        </div>
+                    </div>
+                    <h1>Tower Roulette</h1>
+                    <div id="roulette-controls">
+                        <div> 
+                            <button id="roulette-stop" onclick="Roulette.fail()">Stop</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <button id="roulette-start" onclick="Roulette.init()">Start</button>
+
+                <div id="roulette-towers">
+
+                </div>
+            </div>
+        </main>
+        <!-- scripts -->
+        <script src="./src/main/index.js"></script>
+        <script src="./src/main/roulette.js"></script>
     </body>
 </html>

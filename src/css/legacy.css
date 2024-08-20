@@ -1,0 +1,177 @@
+@keyframes move-bg {
+    to {
+      background-position: var(--bg-size) 0;
+    }
+}
+
+#legacy {
+    display: flex;
+    flex-direction: row;
+}
+
+#legacy #list-legacy {
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+    overflow-y: scroll;
+    position: sticky;
+    justify-content: center;
+    padding-top: 0.8vh;
+    scrollbar-color: rgb(50, 50, 50) rgb(40, 40, 40);
+}
+
+#legacy .listTower {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 1vw;
+    padding-top: 0.2vh;
+    padding-bottom: 0.2vh;
+}
+
+#legacy .listTower h2 {
+    font-size: 0.7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#legacy .listTower-tower {
+    margin-left: 1vw;
+    transition: 0.5s ease;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    border-radius: 0.35vw;
+    height: 90%;
+}
+
+#legacy .listTower-tower:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+#legacy .gold {
+    --bg-size: 400%;
+    background: linear-gradient(
+                    90deg,
+                    rgb(212, 188, 48),
+                    rgb(255, 245, 191),
+                    rgb(212, 188, 48)
+                ) 0 0 / var(--bg-size) 100%;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: move-bg infinite 8s linear;
+}
+
+#legacy .silver {
+    --bg-size: 400%;
+    background: linear-gradient(
+                    90deg,
+                    rgb(136, 136, 136),
+                    rgb(194, 194, 194),
+                    rgb(136, 136, 136)
+                ) 0 0 / var(--bg-size) 100%;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: move-bg infinite 8s linear;
+}
+
+#legacy .bronze {
+    --bg-size: 400%;
+    background: linear-gradient(
+                    90deg,
+                    rgb(179, 125, 81),
+                    rgb(143, 111, 71),
+                    rgb(179, 125, 81)
+                ) 0 0 / var(--bg-size) 100%;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: move-bg infinite 8s linear;
+}
+
+#legacy #viewer-legacy {
+    display: flex;
+    
+    margin-left: 2vw;
+    width: 73%;
+    height: 95vh;
+    position: sticky;
+    top: 6vh;
+}
+
+#legacy #viewer-legacy-main {
+    flex-direction: column;
+    justify-content: left;
+    align-items: top;
+    width: 70%;
+}
+
+#legacy #viewer-legacy-main h1 {
+    font-size: 2vw;
+    margin-top: 1.5vh;
+    height: 3vh;
+}
+
+#legacy #viewer-legacy-main #video-legacy {
+    aspect-ratio: 16/9;
+    width: 70%;
+    margin-top: 1.25vh;
+}
+
+#legacy #viewer-legacy-main .viewer-legacy-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    height: 9vh;
+    bottom: 2vh;
+}
+
+#legacy #viewer-legacy-main .viewer-legacy-infoField {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 33%;
+}
+
+#legacy #viewer-legacy .viewer-legacy-infoField h3 {
+    width: 10%;
+}
+
+#legacy #viewer-legacy-side {
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    margin-left: 9%;
+    margin-right: 1%;
+    position: sticky;
+    top: 5vh;
+    padding-top: 4vh;
+    height: 95%;
+}
+
+#legacy #viewer-legacy-side p {
+    display: flex;
+    align-items: center;
+    margin: 5;
+    justify-content: left;
+}
+
+#legacy #viewer-legacy-side p .crown-icon {
+    width: 4%;
+    aspect-ratio: 1/1;
+    padding-right: 0.38vw;
+}
+
+#legacy #viewer-legacy-side ul {
+    padding-left: 0.5vw;
+    margin: 0;
+}
+
+#legacy #viewer-legacy-side li {
+    margin: 10
+}
