@@ -163,4 +163,12 @@ const page = (id) => {
 
 page('main');
 
+const toggleList = () => {
+    $("#list")[0].style.width = $("#list")[0].style.width == "0%" ? "100vw" : "0%";
+    $("#viewer")[0].style.width= $("#viewer")[0].style.width == "93vw" ? "7vw" : "93vw";
+    $("#viewer-main")[0].style.display = $("#viewer-main")[0].style.display == "flex" ? "none" : "flex";
+    
+    $("#viewer-openlist")[0].innerHTML = $("#viewer-openlist")[0].innerHTML == "⯈" ? "⯇" : "⯈";
+}
+
 

@@ -6,6 +6,7 @@ class Roulette {
     static round = -1;
     static rouletteTowers = [];
     static prev = [];
+    static failed = false;
 
     static init = () => {
         // reset
@@ -14,6 +15,7 @@ class Roulette {
         this.prev = [];
         $("#roulette-start")[0].classList.remove("failed");
         let roulettePool = [];
+        this.failed = false;
 
         $("#roulette-towers")[0].innerHTML = ""
 
@@ -77,11 +79,15 @@ class Roulette {
     }
 
     static fail = () => {
-        $(".current").toArray().forEach((c) => {c.classList.remove("current")});
-        $("#roulette-start")[0].classList.add("failed");
-        $("#roulette-towers")[0].innerHTML += `
-        <h2>Score: ${this.round+1}</h2>
-        `
+        if (!this.failed) {
+            $(".current").toArray().forEach((c) => {c.classList.remove("current")});
+            $("#roulette-start")[0].classList.add("failed");
+            $("#roulette-towers")[0].innerHTML += `
+            <h2>Score: ${this.round+1}</h2>
+            `
+
+            this.failed = true;
+        }
     }
 
     static template = (tower) => {

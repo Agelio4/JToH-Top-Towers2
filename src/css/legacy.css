@@ -1,3 +1,4 @@
+@media only screen and (min-width: 768px) {
 @keyframes move-bg {
     to {
       background-position: var(--bg-size) 0;
@@ -174,4 +175,5 @@
 
 #legacy #viewer-legacy-side li {
     margin: 10
+}
 }

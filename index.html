@@ -3,6 +3,7 @@
         <meta charset="utf-8">
         <title>Top Towers List</title>
         <meta description="Official list for the Top Towers Community">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,15 +32,16 @@
             <h3 class="header-link" id="header-60" onclick="page('leaderboard')"">Leaderboard</h3>
             <h3 class="header-link" id="header-roulette" onclick="page('roulette')"">Roulette</h3>
 
-            <img class="header-theme-icon" src="./assets/dark.svg">
+            <!-- <img class="header-theme-icon" src="./assets/dark.svg"> -->
         </header>
         <main>
             <div class="page" id="main">
-                <div id="list">
+                <div id="list" style="width: 0%;">
 
                 </div>
-                <div id="viewer">
-                    <div id="viewer-main">
+                <div id="viewer" style="width: 93vw;">
+                    <button id="viewer-openlist" onclick="toggleList()">⯈</button>
+                    <div id="viewer-main" style="display: flex;">
                         <h1 id="viewer-towerName">#TOWER_NAME</h1>
 
                         <div class="viewer-info">
