@@ -98,7 +98,7 @@ class Roulette {
         console.log(tower);
 
         var nRank = "#" + tower.rank + " - ";
-        if (nRank == "#Unverified") {
+        if (nRank == "#Unverified - ") {
             nRank = "";
         }
 
@@ -122,7 +122,7 @@ class Roulette {
             `
         } else {
             thumb = `
-                <img class="roulette-unverifThumb" src="assets/${tower.difficulty.toLowerCase()}.jpg">
+                <img class="roulette-unverifThumb" src="assets/${tower.difficulty.toLowerCase().replaceAll("/", "")}.jpg">
             `
         }
 
