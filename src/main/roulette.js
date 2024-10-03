@@ -97,7 +97,7 @@ class Roulette {
     static template = (tower) => {
         console.log(tower);
 
-        var nRank = "#" + tower.rank; + " - "
+        var nRank = "#" + tower.rank + " - ";
         if (nRank == "#Unverified") {
             nRank = "";
         }
