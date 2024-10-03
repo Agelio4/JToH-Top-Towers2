@@ -73,6 +73,22 @@
                                 referrerpolicy="strict-origin-when-cross-origin" 
                                 allowfullscreen>
                         </iframe>
+
+                        <br><br>
+                        <hr>
+
+                        <div class="viewer-records">
+                            <h2>Records</h2>
+                            <table>
+                                <tbody id="viewer-records-table">
+                                    <tr>
+                                        <th id="theader-user">Username</th>
+                                        <th id="theader-fps">FPS</th>
+                                        <th id="theader-video">Video</th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                     <div id="viewer-side">
                         <h3>The Listmods</h3>
@@ -183,7 +199,11 @@
                             </span>
                             <span>
                                 <input type="checkbox" id="opt-legacy">
-                                <label for="opt-main">Legacy List</label>
+                                <label for="opt-legacy">Legacy List</label>
+                            </span>
+                            <span>
+                                <input type="checkbox" id="opt-unverified">
+                                <label for="opt-unverified">Unverified List</label>
                             </span>
                         </div>
                     </div>
@@ -203,6 +223,7 @@
             </div>
         </main>
         <!-- scripts -->
+        <script src="./src/main/records.js"></script>
         <script src="./src/main/index.js"></script>
         <script src="./src/main/roulette.js"></script>
     </body>

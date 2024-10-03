@@ -28,6 +28,10 @@ class Roulette {
             roulettePool = roulettePool.concat(legacy);
         }
 
+        if ($("#opt-unverified")[0].checked) {
+            roulettePool = roulettePool.concat(unverified);
+        }
+
         for (let i = 0; i < roulettePool.length; i++) {
             if (roulettePool[i].name.charAt(0) == "S" || roulettePool[i].name.charAt(0) == "D") {
                 roulettePool.splice(i, 1); // remove all steeples, getting one past r6 makes it impossible
@@ -92,8 +96,15 @@ class Roulette {
 
     static template = (tower) => {
         console.log(tower);
-        return `
-        <div class="roulette-tower current">
+
+        var nRank = "#" + tower.rank; + " - "
+        if (nRank == "#Unverified") {
+            nRank = "";
+        }
+
+        var thumb = "";
+        if (tower.videoLink != "Unverified") {
+            thumb = `
             <iframe id="video" 
                 src="${tower.videoLink}" 
                 title="YouTube video player" 
@@ -108,9 +119,19 @@ class Roulette {
                 referrerpolicy="strict-origin-when-cross-origin" 
                 allowfullscreen>
             </iframe>
+            `
+        } else {
+            thumb = `
+                <img class="roulette-unverifThumb" src="assets/${tower.difficulty.toLowerCase()}.jpg">
+            `
+        }
+
+        return `
+        <div class="roulette-tower current">
+            ${thumb}
             <div class="roulette-tower-info">
                 <div class="roulette-tower-info-left">
-                    <h1>#${tower.rank} -  ${tower.name}</h1>
+                    <h1>${nRank} ${tower.name}</h1>
                     <h3>By ${tower.creators}</h3>
                 </div>
                 <div class="roulette-tower-info-controls">  

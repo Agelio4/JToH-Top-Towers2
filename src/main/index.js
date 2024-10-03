@@ -1,6 +1,7 @@
 let data;
 let towers = [];
 let legacy = [];
+let unverified = [];
 let inview = 0;
 
 // utils
@@ -79,7 +80,6 @@ class Tower {
 
 $('#file-loader').load("src/data/list.csv", () => {
     data = Papa.parse($('#file-loader')[0].innerHTML);
-    console.log(data);
 
     for (let i = 1; i < data.data.length; i++) {
         towers.push(new Tower(
@@ -132,6 +132,28 @@ $('#file-loader').load("src/data/legacy.csv", () => {
     viewTower(legacy[0].name, "legacy"); // default view to top 1
 });
 
+$('#file-loader').load("src/data/unverified.csv", () => {
+    data = Papa.parse($('#file-loader')[0].innerHTML);
+    console.log(data);
+
+    for (let i = 1; i < data.data.length; i++) {
+        unverified.push(new Tower(
+            data.data[i][0],
+            data.data[i][1],
+            "Unverified",
+            data.data[i][2],
+            "No location",
+            data.data[i][4],
+            data.data[i][5],
+            data.data[i][6],
+            "Unverified",
+            "Unverified",
+            "Unverified",
+            "Unverified"
+        ));
+    }
+});
+
 const viewTower = (tower, mode) => {
     console.log(tower);
     let inview = 0;
@@ -142,6 +164,48 @@ const viewTower = (tower, mode) => {
     $(`#viewer-${mode == "main" ? "" : "legacy-"}creators`)[0].innerHTML = inview.creators;
     $(`#viewer-${mode == "main" ? "" : "legacy-"}verifier`)[0].innerHTML = inview.verifier;
     $(`#viewer-${mode == "main" ? "" : "legacy-"}location`)[0].innerHTML = inview.location;
+
+
+        $("#viewer-records-table")[0].innerHTML = `
+        <tr>
+            <th id="theader-user">Username</th>
+            <th id="theader-fps">FPS</th>
+            <th id="theader-video">Video</th>
+        </tr>
+        `
+    
+
+    let r = [];
+    for (let i = 0; i < records.length; i++) {
+        if (records[i].tower == getAcronym(inview.name)) {
+            r.push(records[i]);
+        }
+    }
+
+    for (let i = 0; i < r.length; i++) {
+        console.log(r[i]);
+        let userclan = new Clan(
+            "",
+            "",
+            "",
+            "white",
+            [r[i]["user"]]
+        ) // default to nothing if no clan
+        for (let j = 0; j < Clans.clans.length; j++) {
+            if (Clans.clans[j].hasMember(r[i]["user"])) {
+                userclan = Clans.clans[j]
+            }
+        }
+
+        $("#viewer-records-table")[0].innerHTML += `
+        <tr>
+            <td><span style="color=${userclan.taghex ?? 'white'}">${userclan.tag ?? ''} </span>${r[i]["user"]}</td>
+            <td>${r[i].hz}</td>
+            <td class="tr-link"><a href="${r[i].link}">${r[i].link}</a></td>
+        </tr>
+        `
+    }
+
     $(`#video${mode == "main" ? "" : "-legacy"}`)[0].src = inview.videoLink;
 }
 
@@ -170,5 +234,4 @@ const toggleList = () => {
     
     $("#viewer-openlist")[0].innerHTML = $("#viewer-openlist")[0].innerHTML == "⯈" ? "⯇" : "⯈";
 }
-
 
